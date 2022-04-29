@@ -1,0 +1,209 @@
+@media (max-width:1030px) {
+    /* home */
+    .home .home-banner-1, 
+    .home .home-banner-2{
+        background: 65% center;
+        min-height: 410px;
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 5rem;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-70%, -80%);
+    } 
+    /*Offer section  */
+    .offers{
+        padding-top: 4rem;
+    }
+    .offers .offer-box .offer-info .heading-bigger{
+       font-size: 3rem;
+    }
+}
+
+@media(max-width:991px){
+    .home .home-banner-1, 
+    .home .home-banner-2{
+        background: 65% center;
+        min-height: 340px;
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 4rem;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-50%, -60%);
+    }
+    .home .carousel-indicators [data-bs-target]{
+        background-color: var(--bg-danger);
+        width: 2.7rem;
+        height: 0.275rem;
+    }
+    /* offers */
+    .offers{
+        padding-top: 3rem;
+    }
+}
+@media(max-width:767px){
+    .home .home-banner-1, 
+    .home .home-banner-2{
+        background: 65% center;
+        min-height: 285px;
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 3rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.7rem;
+    }
+    .home .home-banner .home-banner-text a{
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-50%, -60%);
+    }
+    .home .carousel-indicators [data-bs-target]{
+        background-color: var(--bg-danger);
+        width: 2.7rem;
+        height: 0.213rem;
+    }
+    .offers{
+        padding-top: 2rem;
+    }
+    /* Upto 75% off  */
+    .products .up_to_content h2{
+        font-size: 1.25rem;
+    }
+    /* Special section */
+    .special {
+        padding: 4rem 0;
+    }
+    .special .countdown-container .countdown-counter li{
+        padding: 1rem;
+        width: 20%;
+    }
+    .special .countdown-container{
+        padding-top: 2rem;
+    }
+    /* testimonials */
+    .testimonial .carousel-control-next{
+        right: -5.75rem;
+    }
+    .testimonial .carousel-control-prev{
+        left: -5.75rem;
+    }
+}
+@media(max-width:600px){
+    .home .home-banner-1, 
+    .home .home-banner-2{
+        background: 65% center;
+        min-height: 246px;
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 2rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.2rem;
+        margin-bottom: 0.1rem;
+    }
+    .home .home-banner .home-banner-text a{
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-50%, -60%);
+    }
+    .home .carousel-indicators [data-bs-target]{
+        background-color: var(--bg-danger);
+        width: 2.7rem;
+        height: 0.213rem;
+        margin-bottom: 0;
+        display: none;
+    }
+    .home .carousel-control-next-icon, 
+    .home .carousel-control-prev-icon{
+        display: none;
+    }
+    .home .home-banner .home-banner-text a{
+        display: none;
+    }
+    /* offers */
+    .offers{
+        padding-top: 0;
+    }
+    /* Products */
+    .products{
+        padding-top: .5rem;
+    }
+    /* Special section */
+    .special .countdown-container{
+        padding-top: 2.375rem;
+    }
+    /* testimonials */
+    .testimonial .carousel-control-next{
+        display: none;
+    }
+    .testimonial .carousel-control-prev{
+        display: none;
+    }
+}
+
+@media(max-width:430px){
+    .home .home-banner .home-banner-text a{
+        display: none;
+    }
+    .home .carousel-indicators [data-bs-target]{
+        background-color: var(--bg-danger);
+        width: 0.7rem;
+        display: none;
+        height: 0.113rem;
+    }
+    .home .carousel-control-next-icon, 
+    .home .carousel-control-prev-icon{
+        display: none;
+    }
+}
+
+@media(max-width:330px){
+    .home .home-banner-1, 
+    .home .home-banner-2{
+        background: 65% center;
+        min-height: 145px;
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 2rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+    }
+    .home .home-banner .home-banner-text a{
+        display: none;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-50%, -60%);
+    }
+    .home .carousel-indicators [data-bs-target]{
+        background-color: var(--bg-danger);
+        width: 0.7rem;
+        display: none;
+        height: 0.113rem;
+    }
+    /* offers */
+    .offers{
+        padding-top: 1.75rem;
+    }
+    /* product section*/
+    .products .up_to_content h2{
+        font-size: 1rem;
+        top: 30%;
+        left: 15%;
+    }
+    /* testimonials */
+    .testimonial .testimonial_wrapper{        
+        padding: 1rem;
+    }
+    .testimonial .carousel-control-next,
+    .testimonial .carousel-control-prev{
+        display: none;
+    }
+
+}
